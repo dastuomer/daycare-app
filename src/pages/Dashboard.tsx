@@ -4,32 +4,35 @@ import NavBar from "../NavBar";
 
 function Dashboard() {
   return (
-    <div className="App-header">
+    <div className="App-header green-bgd ">
       <NavBar />
       <Center marginTop={"40px"}>
         <Stack>
-          <HStack marginBottom={"200px"}>
-            <Box w={"600px"} h={"400px"} borderRadius={"30px"} padding={2}>
-              <Text className="font" fontSize={"60px"}>
-                The fastest way to find childcare
-              </Text>
-              <Text className="small-font" fontSize={"20px"}>
-                Finding childcare isn't easy. Kid Konnect helps simplify your
-                search for safe and reliable daycares in your area, so you can
-                get back to what really matters. Get affordable licensed Daycare
-                Services without the long and frustrating wait times. Get
-                affordable licensed Daycare Services without the long and
-                frustrating wait times
-              </Text>
-            </Box>
-            <Spacer w={"150px"} />
-            <Box w={"600px"} h={"400px"} padding={2}>
-              {/* <img
-                src="/users/dastuomer/daycare-app/src/images/kid.png"
-                alt="kid"
-              /> */}
-            </Box>
-          </HStack>
+          <Box
+            className="border-yellow"
+            w={"700px"}
+            h={"400px"}
+            borderRadius={"30px"}
+            padding={6}
+            borderWidth={2}
+          >
+            <Text className="font" fontSize={"60px"}>
+              The fastest way to find childcare
+            </Text>
+            <Text className="small-font" fontSize={"20px"}>
+              Finding childcare isn't easy. Kid Konnect helps simplify your
+              search for safe and reliable daycares in your area, so you can get
+              back to what really matters. Get affordable licensed Daycare
+              Services without the long and frustrating wait times. Get
+              affordable licensed Daycare Services without the long and
+              frustrating wait times
+            </Text>
+          </Box>
+          <Spacer w={"150px"} />
+          {/* <Box w={"600px"} h={"400px"} padding={2}>
+            <img src="src/images/kid.png" alt="kid" />
+          </Box> */}
+
           {/* <Center>
             <HStack marginTop={"150px"} marginBottom={"150px"}>
               <Box w={"400px"} h={"400px"} borderWidth={2}>
@@ -58,9 +61,16 @@ function Dashboard() {
               /> */}
             </Box>
             <Spacer w={"150px"} />
-            <Box w={"600px"} h={"400px"} borderRadius={"30px"} padding={2}>
+            <Box
+              className="border-yellow"
+              w={"700px"}
+              h={"350px"}
+              borderRadius={"30px"}
+              padding={6}
+              borderWidth={2}
+            >
               <Text className="font" fontSize={"60px"}>
-                The fastest way to find childcare
+                Our Mission
               </Text>
               <Text className="small-font" fontSize={"20px"}>
                 Parents and Guardians suffer monetary loss while waiting to find

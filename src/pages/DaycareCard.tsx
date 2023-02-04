@@ -36,7 +36,7 @@ export const DaycareCard = ({
               padding={2}
               borderWidth={2}
             >
-              image hear
+              image here
             </Box>
             <Stack>
               <Center>

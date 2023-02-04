@@ -61,7 +61,7 @@ export default function NavBar() {
             fontFamily={"heading"}
             color={useColorModeValue("gray.800", "white")}
           >
-            Logo
+            KidKonnect +
           </Text>
 
           <Flex display={{ base: "none", md: "flex" }} ml={10}>
@@ -274,8 +274,7 @@ const NAV_ITEMS: Array<NavItem> = [
     label: "Home",
     children: [
       {
-        label: "Dashboard",
-        subLabel: "See your personal details",
+        label: "Landing Page",
         href: "/",
       },
     ],
@@ -299,8 +298,8 @@ const NAV_ITEMS: Array<NavItem> = [
         href: "/regina-childcare",
       },
       {
-        label: "Canada",
-        subLabel: "Find childcare across canada",
+        label: "Saskatchewan",
+        subLabel: "Find childcare across Saskatchewan",
         href: "/childcare",
       },
     ],
