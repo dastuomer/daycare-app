@@ -20,7 +20,7 @@ function ParentOrDaycare() {
               bg: "yellow.100",
             }}
             onClick={() => {
-              navigate("/parent-signup");
+              navigate("/provider-signup");
             }}
           >
             <Heading className="font">Provider</Heading>

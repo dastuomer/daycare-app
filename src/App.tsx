@@ -9,6 +9,8 @@ import ParentOrDaycare from "./pages/ParentOrDaycare";
 import ParentSignup from "./pages/ParentSignup";
 import ChildSignup from "./pages/ChildSignup";
 import AdditionalInfo from "./pages/AdditionalInfo";
+import SearchDaycares from "./pages/SearchDaycares";
+import ProviderSignup from "./pages/ProviderSignup";
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
           <Route path="/parent-signup" element={<ParentSignup />} />
           <Route path="/parent-signup/child" element={<ChildSignup />} />
           <Route path="/parent-signup/info" element={<AdditionalInfo />} />
+          <Route path="/regina-childcare" element={<SearchDaycares />} />
+          <Route path="/provider-signup" element={<ProviderSignup />} />
         </Routes>
       </BrowserRouter>
     </ChakraProvider>

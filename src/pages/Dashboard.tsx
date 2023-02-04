@@ -8,7 +8,7 @@ function Dashboard() {
       <NavBar />
       <Center marginTop={"40px"}>
         <Stack>
-          <HStack>
+          <HStack marginBottom={"200px"}>
             <Box w={"600px"} h={"400px"} borderRadius={"30px"} padding={2}>
               <Text className="font" fontSize={"60px"}>
                 The fastest way to find childcare
@@ -16,23 +16,22 @@ function Dashboard() {
               <Text className="small-font" fontSize={"20px"}>
                 Finding childcare isn't easy. Kid Konnect helps simplify your
                 search for safe and reliable daycares in your area, so you can
-                get back to what really matters.
+                get back to what really matters. Get affordable licensed Daycare
+                Services without the long and frustrating wait times. Get
+                affordable licensed Daycare Services without the long and
+                frustrating wait times
               </Text>
             </Box>
             <Spacer w={"150px"} />
-            <Box
-              w={"600px"}
-              h={"400px"}
-              borderColor={"green.400"}
-              borderRadius={"30px"}
-              borderWidth={2}
-              padding={2}
-            >
-              <Text> Maybe put an image here?</Text>
+            <Box w={"600px"} h={"400px"} padding={2}>
+              <img
+                src="/users/dastuomer/daycare-app/src/images/kid.png"
+                alt="kid"
+              />
             </Box>
           </HStack>
-          <Center>
-            <HStack marginTop={"150px"}>
+          {/* <Center>
+            <HStack marginTop={"150px"} marginBottom={"150px"}>
               <Box w={"400px"} h={"400px"} borderWidth={2}>
                 <Text className="font" fontSize={"40px"} align="center">
                   Parents
@@ -49,18 +48,14 @@ function Dashboard() {
                 <Text className="font" fontSize={"40px"} align="center"></Text>
               </Box>
             </HStack>
-          </Center>
-          <HStack>
-            <Box
-              w={"600px"}
-              h={"400px"}
-              borderColor={"green.400"}
-              borderRadius={"30px"}
-              borderWidth={2}
-              padding={2}
-              marginTop={"150px"}
-            >
-              <Text> Maybe put an image here?</Text>
+          </Center> */}
+          <HStack paddingBottom={"150px"}>
+            <Box w={"600px"} h={"400px"} padding={2}>
+              <img
+                className="image"
+                src="/Users/dastuomer/daycare-app/src/images/WalkingToDaycare.png"
+                alt="WalkingToDaycare"
+              />
             </Box>
             <Spacer w={"150px"} />
             <Box w={"600px"} h={"400px"} borderRadius={"30px"} padding={2}>
@@ -68,9 +63,11 @@ function Dashboard() {
                 The fastest way to find childcare
               </Text>
               <Text className="small-font" fontSize={"20px"}>
-                Finding childcare isn't easy. Kid Konnect helps simplify your
-                search for safe and reliable daycares in your area, so you can
-                get back to what really matters.
+                Parents and Guardians suffer monetary loss while waiting to find
+                available day care spots that are Licensed and monetized. we
+                have created a digital solution that allows parents easily
+                search, compare and choose childcare options that meet their
+                needs and provide peace of mind about their children's care.
               </Text>
             </Box>
           </HStack>
