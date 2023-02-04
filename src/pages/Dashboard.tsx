@@ -24,10 +24,10 @@ function Dashboard() {
             </Box>
             <Spacer w={"150px"} />
             <Box w={"600px"} h={"400px"} padding={2}>
-              <img
+              {/* <img
                 src="/users/dastuomer/daycare-app/src/images/kid.png"
                 alt="kid"
-              />
+              /> */}
             </Box>
           </HStack>
           {/* <Center>
@@ -51,11 +51,11 @@ function Dashboard() {
           </Center> */}
           <HStack paddingBottom={"150px"}>
             <Box w={"600px"} h={"400px"} padding={2}>
-              <img
+              {/* <img
                 className="image"
                 src="/Users/dastuomer/daycare-app/src/images/WalkingToDaycare.png"
                 alt="WalkingToDaycare"
-              />
+              /> */}
             </Box>
             <Spacer w={"150px"} />
             <Box w={"600px"} h={"400px"} borderRadius={"30px"} padding={2}>
