@@ -37,12 +37,17 @@
 
 
  .font{
-  font-family: 'Unbounded', cursive;}
+  font-family: 'Unbounded', cursive;
+}
+
   .small-font{
     font-family: 'Lato', sans-serif;
   }
   .green-bgd{
     background-color: #9DA993;
+  }
+  .yellow-bgd{
+    background-color: #e9e56f;
   }
   .border-green{
     border-color: #9DA993 ;

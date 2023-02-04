@@ -22,9 +22,11 @@ import {
   ChevronRightIcon,
 } from "@chakra-ui/icons";
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function NavBar() {
   const { isOpen, onToggle } = useDisclosure();
+  const navigate = useNavigate();
 
   return (
     <Box>
@@ -78,7 +80,7 @@ export default function NavBar() {
             fontSize={"sm"}
             fontWeight={400}
             variant={"link"}
-            // href={"#"}
+            href={"/login"}
           >
             Sign In
           </Button>
@@ -88,9 +90,11 @@ export default function NavBar() {
             fontWeight={600}
             color={"white"}
             bg={"green.400"}
-            // ref={"#"}
             _hover={{
               bg: "green.300",
+            }}
+            onClick={() => {
+              navigate("/signup");
             }}
           >
             Sign Up
@@ -267,6 +271,16 @@ interface NavItem {
 
 const NAV_ITEMS: Array<NavItem> = [
   {
+    label: "Home",
+    children: [
+      {
+        label: "Dashboard",
+        subLabel: "See your personal details",
+        href: "/",
+      },
+    ],
+  },
+  {
     label: "Profile",
     children: [
       {
@@ -290,13 +304,5 @@ const NAV_ITEMS: Array<NavItem> = [
         href: "/childcare",
       },
     ],
-  },
-  {
-    label: "Learn Design",
-    // href: "#",
-  },
-  {
-    label: "Hire Designers",
-    // href: "#",
   },
 ];
